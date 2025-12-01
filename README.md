@@ -1,3 +1,24 @@
+⚙️ Requirements
+
+Python 3.x
+
+requests
+
+openpyxl
+
+Install dependencies:
+
+pip install requests openpyxl
+
+▶️ How to Run
+python sam_audit.py
+
+
+The report will be generated at:
+
+C:\Users\<your-user>\Desktop\SAM\SAM_report_formatted.xlsx
+
+
 # GLPI Software Audit Automation Script
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
