@@ -74,6 +74,15 @@ The script generates a professional Excel file with two sheets:
   
 ---
 
+
+Copyright (c) 2025 Ahmed Raza Bhatti
+
+This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.
+You may share and adapt this code for non-commercial purposes only, with attribution.
+For details, see: https://creativecommons.org/licenses/by-nc/4.0/
+
+
+
 ## 🧩 Flow Diagram
 
 ```mermaid
