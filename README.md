@@ -68,6 +68,7 @@ The script generates a professional Excel file with two sheets:
 
 ## 🧩 Flow Diagram
 
+```mermaid
 flowchart TD
     A["Start Script"] --> B["Load config.xlsx - UserDeptMap"]
     B --> C["Connect to GLPI API"]
@@ -80,5 +81,3 @@ flowchart TD
     I --> J["Save Excel Report"]
     J --> K["End GLPI Session"]
     K --> L["Script Completed ✅"]
-
-
