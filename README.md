@@ -1,24 +1,3 @@
-⚙️ Requirements
-
-Python 3.x
-
-requests
-
-openpyxl
-
-Install dependencies:
-
-pip install requests openpyxl
-
-▶️ How to Run
-python sam_audit.py
-
-
-The report will be generated at:
-
-C:\Users\<your-user>\Desktop\SAM\SAM_report_formatted.xlsx
-
-
 # GLPI Software Audit Automation Script
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
@@ -85,6 +64,14 @@ The script generates a professional Excel file with two sheets:
 - Columns: System Name, User Name, Department, Unauthorized Software  
 - Each unauthorized software is listed per system  
 
+### 🤝 Why This Script Helps IT Teams
+
+- Automates a normally manual process: no need to visit each system
+- Ensures compliance: consistently detects unauthorized software
+- Easy maintenance: only config.xlsx for user mapping; allowed/excluded software is easily editable
+- Improves reporting for management: clean Excel output for audits, licensing checks, or security reviews
+
+  
 ---
 
 ## 🧩 Flow Diagram
@@ -102,3 +89,6 @@ flowchart TD
     I --> J["Save Excel Report"]
     J --> K["End GLPI Session"]
     K --> L["Script Completed ✅"]
+
+
+
