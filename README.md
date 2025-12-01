@@ -1,8 +1,6 @@
 # GLPI Software Audit Automation Script
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Issues](https://img.shields.io/github/issues/<your-username>/<repo-name>)
 
 ---
 
